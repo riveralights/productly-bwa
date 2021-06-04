@@ -1,0 +1,455 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-black: #173A56;
+    --main-orange: #FF9900;
+    --main-yellow: #FAB005;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+/* Global CSS */
+.btn-1 {
+    background-color: transparent;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #BCD0E5;
+    color: var(--font-black);
+    transition: all 0.3s ease;
+}
+
+.btn-1:hover {
+    background-color: var(--main-orange);
+    color: #FFF;
+}
+
+.btn-2 {
+    background-color: var(--main-orange);
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-2:hover {
+    background-color: rgb(238, 184, 83);
+    color: #000;
+}
+
+/* navbar */
+.navbar {
+    padding: 24px 0;
+    margin: 20px 0;
+}
+
+.nav-item {
+    padding-left: 10px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-link {
+    font-size: 14px;
+}
+
+button.sign-in {
+    margin-right: 20px;
+}
+
+/* Hero */
+.hero {
+    margin: 20px 0;
+}
+
+.hero-text h1 {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    width: 460px;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.btn-get-started {
+    padding: 16px 42px;
+}
+
+.btn-get-started:hover {
+    background-color: rgb(245, 185, 73);
+}
+
+.hero-cta {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+a.watch {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--main-orange);
+    line-height: 16px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+a.watch:hover {
+    color: #ffb23d;
+}
+
+a.watch i {
+    margin-right: 10px;
+}
+
+/* section Tools */
+.tools {
+    margin-top: 112px;
+    background-image: url(../images/Bg.png);
+    background-repeat: no-repeat;
+    background-position: center 160px;
+}
+
+.tool-title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+.tool-list {
+    margin-top: 48px;
+}
+
+.tool-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40%;
+    margin-bottom: 30px;
+}
+
+.tool-icon.point {
+    background-color: #7752BE;
+    box-shadow: 1px 4px 10px 1px rgb(129 90 201 / 50%);
+}
+
+.tool-icon.swatchbook {
+    background-color: #FAB005;
+    box-shadow: 1px 4px 10px 1px rgb(250 176 5 / 50%);
+}
+
+.tool-icon.heart {
+    background-color: #F03E3D;
+    box-shadow: 1px 4px 10px 1px rgb(240 62 61 / 50%);
+}
+
+.tool-icon.hourglass {
+    background-color: #4DADF7;
+    box-shadow: 1px 4px 10px 1px rgb(77 173 247 / 50%);
+}
+
+.tool-icon i {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    padding-top: 16px;
+}
+
+.tool-heading {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.tool-caption {
+    margin-top: 14px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.cta-sign-up {
+    padding: 16px 34px;
+    margin-top: 52px;
+    margin-bottom: 85px;
+}
+
+/* Section-design */
+.design {
+    margin: 125px 0 100px 0;
+}
+
+.design-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-mini-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 5px 0 24px 0;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.design-point {
+    margin: 28px 0;
+}
+
+.design-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.design-capt {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.design-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Marketers */
+section.marketers {
+    margin: 105px 0 175px 0;
+}
+
+/* Super Hero */
+.super-hero {
+    height: 835px;
+    background-image: url(../images/Bg-oval.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.super-hero-item {
+    padding: 231px 0 379px 0;
+    position: relative;
+}
+
+.super-hero-item h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.super-hero-item p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+/* .super-hero-1 {
+    position: absolute;
+    top: 10%;
+    left: 11%;
+}
+
+.super-hero-2 {
+    position: absolute;
+    top: 471px;
+    left: 12%;
+}
+
+.super-hero-3 {
+    position: absolute;
+    top: 656px;
+    left: 35%;
+}
+
+.super-hero-4 {
+    position: absolute;
+    top: 55%;
+    right: 14%;
+}
+
+.super-hero-5 {
+    position: absolute;
+    top: 10%;
+    right: 11%;
+} */
+
+/* Marketing */
+section.strategy {
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.marketing-text {
+    margin-bottom: 58px;
+}
+
+.marketing-heading {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.marketing-lead {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.strategy-cover img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.strategy-body p {
+    font-size: 16px;
+    margin: 25px 0 17px 0;
+}
+
+.strategy-title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+/* Footer */
+.footer-title-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .btn-2 {
+        padding: 12px 24px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        transition: all 0.3s ease;
+    }
+
+    a.watch {
+        font-size: 14px;
+    }
+
+    button.sign-in {
+        margin-right: 0px;
+    }
+
+    /* Hero */
+    .hero-text h1 {
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+    .hero-text p {
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: justify;
+        width: 95%;
+    }
+
+    .btn-get-started {
+        padding: 10px 16px;
+    }
+
+    .hero-cta {
+        margin-top: -4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .tools {
+        margin-top: 70px;
+        background-image: url(../images/Bg.png);
+        background-repeat: no-repeat;
+        background-position: center 200px;
+    }
+
+    .tool-title h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .tool-list {
+        padding: 10px;
+    }
+
+    .design {
+        margin: -30px 0 50px 0;
+    }
+
+    .tool-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tool-heading {
+        margin-top: -3px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .tool-caption {
+        text-align: center;
+    }
+
+    .cta-sign-up {
+        margin-top: 4px;
+        margin-bottom: 75px;
+    }
+
+    section.marketers {
+        margin: 70px 0px 0px 0px;
+    }
+
+    .strategy-item {
+        margin-bottom: 50px;
+    }
+
+    @media(max-width: 568px) {
+        .btn-su {
+            margin-left: 0 !important;
+            margin-top: 6px
+        }
+    }
+}
